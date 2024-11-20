@@ -9,7 +9,7 @@ import Timeline from '../components/Timeline'
 const DestopPreview: React.FC = () => {
     return ( 
         <div className='relative snap-y snap-mandatory overflow-y-auto max-h-screen overflow-x-hidden'>
-            <Banner edit={true} />
+            <Banner isEdit={true} />
             <Invitation  />  
             <Biography />       
             <Story/>
